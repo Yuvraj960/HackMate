@@ -3,6 +3,7 @@
 This website is basically made to help the college students to know about the latest events and hackathons going on at the current time and those which are arriving.
 <br><br>
 
+The Project live on: hackmate.netlify.app
 
 This is the Frontend Project made with HTML, CSS and BootStrap. This is fully responsive website.
 <br>
