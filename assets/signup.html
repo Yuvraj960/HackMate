@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <title>lighten</title>
+    <title>HackMate</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
         media="screen">
@@ -70,7 +69,7 @@
                                         <li> <a href="../index.html">Home</a> </li>
                                         <li> <a href="about.html">About</a> </li>
                                         <li> <a href="resource.html">Resources</a> </li>
-                                        <li> <a href="blog.html"> Blog</a> </li>
+                                        <li> <a href="event.html"> Events</a> </li>
                                         <li class="mean-last active"> <a href="signup.html">Signup</a> </li>
                                     </ul>
                                 </nav>
@@ -87,18 +86,48 @@
 
     <div class="brand_color">
         <div class="container">
-           <div class="row">
-              <div class="col-md-12">
-                 <div class="titlepage">
-                    <h2>register/signup</h2>
-                 </div>
-              </div>
-           </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>register/signup</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-     </div>
-  
-    <div class="form">
-        <!-- your code here  -->
+    </div>
+
+    <div class="registration-form">
+        <form>
+            <div class="form-icon">
+                <span><i class="icon icon-user"></i></span>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control item" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="birth-date" placeholder="Birth Date">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-block create-account">Create Account</button>
+            </div>
+        </form>
+        <div class="social-media">
+            <h5>Sign up with social media</h5>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook-f" title="Facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
+            </div>
+        </div>
     </div>
 
     <!--  footer -->
@@ -175,6 +204,9 @@
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".fancybox").fancybox({
@@ -189,6 +221,11 @@
 
                 $(this).removeClass('transition');
             });
+        });
+
+        $(document).ready(function () {
+            $('#birth-date').mask('00/00/0000');
+            $('#phone-number').mask('0000-0000');
         });
     </script>
 </body>
