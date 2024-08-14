@@ -1,0 +1,32 @@
+Website name: HackMate
+
+Pages/Sections
+
+1. Home Page
+   - Overview of the website
+   - Highlight of upcoming hackathons and events
+   - Search bar for events
+   - Commonly asked questions
+   - Contact form
+
+2. About Us
+    - Information about the website and its mission
+    - Team details
+    - Partner organizations or sponsors
+
+3. Registration/SignUp
+   - Sign up for new users (only frontend for now)
+   - Profile creation (to be implemented in future)
+
+4. Resources
+   - Preparation tips for hackathons
+   - Coding resources (links to tutorials, coding challenges)
+   - Recommended tools and software
+
+5. Blog
+   - Articles on tech trends, event highlights, success stories
+   - Guest posts from industry professionals
+
+6. Login
+   - Login for existing users (only frontend for now)
+   - Particular user account costumisation (to be implemented in future)
