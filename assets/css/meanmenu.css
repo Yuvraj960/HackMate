@@ -5,7 +5,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-bar {
-     background: #0e100e;
+     /* background: #0e100e; */
      float: left;
      min-height: 40px;
      padding: 5px 0;
@@ -16,7 +16,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container a.meanmenu-reveal {
-     color: #fff;
+     color: #000000;
      cursor: pointer;
      display: block;
      font-family: 'Roboto', sans-serif;
@@ -31,7 +31,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container a.meanmenu-reveal span {
-     background: #ffffff none repeat scroll 0 0;
+     background: #000000 none repeat scroll 0 0;
      border-radius: 0;
      display: block;
      height: 4px;
