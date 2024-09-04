@@ -1782,7 +1782,7 @@ ul.sociel_link li a {
 	padding-bottom: 8px;
 }
 
-.title h2:after {
+/* .title h2:after {
 	position: relative;
 	content: '';
 	top: 100%;
@@ -1791,7 +1791,7 @@ ul.sociel_link li a {
 	display: block;
 	margin: 0 auto;
 	background: #000;
-}
+} */
 
 .title span {
 	color: #070500;
