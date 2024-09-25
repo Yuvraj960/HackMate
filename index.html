@@ -14,9 +14,10 @@
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/responsive.css">
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="assets/css/popup.css">
 </head>
 
-<body class="main-layout">
+<body class="main-layout" id="mainbody">
    <!-- header -->
    <header>
       <div class="header">
@@ -106,7 +107,7 @@
    <div class="choose_bg">
       <div class="container">
          <div class="white_bg">
-            <div class="row">
+            <div class="row rowunique">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="assets/icon/1.png" /></i>
@@ -135,9 +136,9 @@
                      <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
                   </div>
                </div>
-               <div class="col-md-12">
-                  <a class="read-more">Read More</a>
-               </div>
+            </div>
+            <div class="col-md-12 read-more">
+               Read More
             </div>
          </div>
       </div>
@@ -145,8 +146,9 @@
    <!-- end CHOOSE -->
 
    <!-- service -->
-   <div class="service">
-      <div class="container">
+   <div class="service" id="servicessection">
+      <div class="container popupcontainer" id="blur">
+
          <div class="row">
             <div class="col-md-8 offset-md-2">
                <div class="title">
@@ -155,44 +157,51 @@
                </div>
             </div>
          </div>
+
+
          <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(1)">
                   <i><img src="assets/icon/service1.png" /></i>
                   <h3>Fast service</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                </div>
             </div>
+
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(2)">
                   <i><img src="assets/icon/service2.png" /></i>
                   <h3>Trusted Clubs</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                </div>
             </div>
+
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(3)">
                   <i><img src="assets/icon/service3.png" /></i>
                   <h3>Expert team</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                </div>
             </div>
+
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(4)">
                   <i><img src="assets/icon/service4.png" /></i>
                   <h3>Affordable services</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                </div>
             </div>
+
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(5)">
                   <i><img src="assets/icon/service5.png" /></i>
                   <h3>90K+ students</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                </div>
             </div>
+
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-               <div class="service-box">
+               <div class="service-box" onclick="toggle(6)">
                   <i><img src="assets/icon/service6.png" /></i>
                   <h3>Award winning</h3>
                   <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
@@ -200,6 +209,49 @@
             </div>
          </div>
       </div>
+
+      <div class="popup" id="pop1">
+         <img src="assets/icon/service1.png" alt="">
+         <h2>Fast service</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(1)">Close</a>
+      </div>
+
+      <div class="popup" id="pop2">
+         <img src="assets/icon/service2.png" alt="">
+         <h2>Trusted Clubs</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(2)">Close</a>
+      </div>
+
+      <div class="popup" id="pop3">
+         <img src="assets/icon/service3.png" alt="">
+         <h2>Expert Team</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(3)">Close</a>
+      </div>
+
+      <div class="popup" id="pop4">
+         <img src="assets/icon/service4.png" alt="">
+         <h2>Affordable Services</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(4)">Close</a>
+      </div>
+
+      <div class="popup" id="pop5">
+         <img src="assets/icon/service5.png" alt="">
+         <h2>90K+ Students</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(5)">Close</a>
+      </div>
+
+      <div class="popup" id="pop6">
+         <img src="assets/icon/service6.png" alt="">
+         <h2>Award Winning</h2>
+         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+         <a href="#servicessection" class="popupanchors" onclick="toggle(6)">Close</a>
+      </div>
+
    </div>
    <!-- end service -->
    <!-- 

@@ -1,0 +1,62 @@
+[
+    {
+        "image": "assets/icon/1.png",
+        "heading": "Latest Updates",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "image": "assets/icon/2.png",
+        "heading": "AI Integration",
+        "paragraph": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "image": "assets/icon/3.png",
+        "heading": "Cloud Services",
+        "paragraph": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "image": "assets/icon/4.png",
+        "heading": "Cybersecurity",
+        "paragraph": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    },
+    {
+        "image": "assets/icon/1.png",
+        "heading": "Web Development",
+        "paragraph": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+    },
+    {
+        "image": "assets/icon/2.png",
+        "heading": "Blockchain Tech",
+        "paragraph": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+        "image": "assets/icon/3.png",
+        "heading": "Data Analytics",
+        "paragraph": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+    },
+    {
+        "image": "assets/icon/4.png",
+        "heading": "Startup Consultation",
+        "paragraph": "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    {
+        "image": "assets/icon/1.png",
+        "heading": "5G Networking",
+        "paragraph": "Ut labore et dolore magnam aliquam quaerat voluptatem."
+    },
+    {
+        "image": "assets/icon/2.png",
+        "heading": "Automation Tools",
+        "paragraph": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse."
+    },
+    {
+        "image": "assets/icon/3.png",
+        "heading": "IoT Solutions",
+        "paragraph": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus."
+    },
+    {
+        "image": "assets/icon/4.png",
+        "heading": "AR/VR Technology",
+        "paragraph": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis."
+    }
+]

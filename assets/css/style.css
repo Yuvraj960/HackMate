@@ -26,7 +26,6 @@
 @import url(font-awesome.min.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
@@ -1887,17 +1886,11 @@ ul.sociel_link li a {
 	padding: 20px 0px;
 }
 
-
-
-
 .service .service-box p {
 	color: #0d0c0a;
 	font-size: 17px;
 	line-height: 28px;
 }
-
-
-
 
 /** end service section **/
 
@@ -1958,7 +1951,6 @@ ul.sociel_link li a {
 	text-align: center;
 	margin-bottom: 30px;
 	padding: 20px 25px;
-
 }
 
 .product-bg .product-bg-white .product-box i img {
@@ -1987,7 +1979,6 @@ ul.sociel_link li a {
 .product-bg .product-bg-white .product-box span:hover {
 	color: #fff;
 }
-
 
 .Clients_bg_white {
 	background: #ffffffbd;
@@ -2110,12 +2101,8 @@ ul.sociel_link li a {
 	font-weight: 500;
 }
 
-
-
-
-
-
 /** end product section **/
+
 
 /** map section **/
 .map img {
@@ -2128,6 +2115,7 @@ ul.sociel_link li a {
 }
 
 /** end map section **/
+
 
 /** footer section **/
 
@@ -2169,7 +2157,6 @@ ul.sociel li a:hover {
 	line-height: 50px;
 	border-radius: 100%;
 	font-size: 18px;
-
 }
 
 .contact {
@@ -2249,7 +2236,6 @@ ul.lik li a:hover {
 	text-align: center;
 }
 
-
 .contact .main_form {
 	background: #fff;
 
@@ -2293,7 +2279,6 @@ ul.lik li a:hover {
 .send:hover {
 	background: var(--main-color);
 }
-
 
 .product_page .title {
 	text-align: center;
@@ -2535,6 +2520,7 @@ a {
 
 
 /** Lastestnews **/
+
 .Lastestnews {
 	padding: 90px 0px;
 	background: #fff;
@@ -2585,7 +2571,7 @@ a {
 	padding: 7px 20px 20px 20px;
 }
 
-/** Lastestnews **/
+/** Lastestnews  end **/
 
 
 
