@@ -19,10 +19,10 @@ document.getElementById("registrationForm").addEventListener("submit", function 
         return;
     }
 
-    // if (!email.endsWith("@gmail.com")) {
-    //     showError("emailError", "Email must be in the format @gmail.com.");
-    //     return;
-    // }
+    if (!email.endsWith("@gmail.com")) {
+        showError("emailError", "Email must be in the format @gmail.com.");
+        return;
+    }
 
     if (phone.length !== 10 || !/^\d+$/.test(phone)) {
         showError("phoneError", "Phone number must be exactly 10 digits.");
