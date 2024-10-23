@@ -11,7 +11,7 @@
    <meta name="description" content="">
    <meta name="author" content="">
    <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css"> 
    <link rel="stylesheet" href="css/responsive.css">
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 </head>
@@ -123,28 +123,28 @@
                   <div class="for_box">
                      <i><img src="icon/about_team/developer.png" /></i>
                      <h3>Yuvraj Gupta</h3>
-                     <p>Developer</p>
+                     <p>Developer with a passion for creating seamless user experiences.</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/about_team/manager.png" /></i>
                      <h3>Samridhi</h3>
-                     <p>Manager</p>
+                     <p>Manager dedicated to driving innovative tech projects forward.</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/about_team/designer.png" /></i>
                      <h3>Harry Garg</h3>
-                     <p>Designer</p>
+                     <p>Creative designer focused on merging aesthetics with functionality to create visually stunning and user-friendly experiences.</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
                      <i><img src="icon/about_team/marketing.png" /></i>
                      <h3>Riya Bansal</h3>
-                     <p>Marketing</p>
+                     <p>A strategic marketer focused on creating impactful narratives that enhance brand visibility and engage audiences.</p>
                   </div>
                </div>
                <div class="col-md-12">
@@ -154,7 +154,17 @@
          </div>
       </div>
    </div>
-   <!-- end CHOOSE -->
+
+   <!-- Team Profiles Modal -->
+   <div id="teamModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>               <!-- &times 'x' sign ke lie use hota hai -->
+          <div id="modal-body">
+          </div>
+      </div>
+  </div>
+
+  <!-- end CHOOSE -->
 
    <!-- Service -->
    <div class="service">
@@ -172,47 +182,62 @@
                <div class="service-box">
                   <i><img src="icon/service1.png" /></i>
                   <h3>Upcoming Events & Workshops</h3>
-                  <p>Discover nearby events and workshops to keep your skills sharp and stay informed </p>
+                  <div class="service-info">
+                     Discover nearby events and workshops to keep your skills sharp and stay informed.
+                  </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                <div class="service-box">
                   <i><img src="icon/service6.png" /></i>
                   <h3>Coding Contests & Challenges</h3>
-                  <p>Find information on local coding contests and challenges to test your programming skills. </p>
+                  <div class="service-info">
+                     Find information on local coding contests and challenges to test your programming skills.
+                  </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                <div class="service-box">
                   <i><img src="icon/service3.png" /></i>
                   <h3>Hackathons & Innovation Sprints</h3>
-                  <p>Get details on nearby hackathons and innovation sprints to join and collaborate with others. </p>
+                  <div class="service-info">
+                     Get details on nearby hackathons and innovation sprints to join and collaborate with others.
+                  </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                <div class="service-box">
                   <i><img src="icon/concerts&tech_talks.png" /></i>
                   <h3>Concerts & Tech Talks</h3>
-                  <p>Explore local concerts and tech talks to enjoy live entertainment and gain industry insights. </p>
+                  <div class="service-info">
+                     Explore local concerts and tech talks to enjoy live entertainment and gain industry insights.
+                  </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                <div class="service-box">
                   <i><img src="icon/notes.png" /></i>
                   <h3>Notes & Resources</h3>
-                  <p>Access essential notes and references to support your participation hackathons. </p>
+                  <div class="service-info">
+                     Access essential notes and references to support your participation hackathons.
+                  </div>
                </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                <div class="service-box">
                   <i><img src="icon/community&networking.png" /></i>
                   <h3>Community & Networking Opportunities</h3>
-                  <p>Stay connected tech communities and events to build your network. </p>
+                  <div class="service-info">
+                     Stay connected tech communities and events to build your network.
+                  </div>
                </div>
             </div>
          </div>
       </div>
    </div>
+   
+   <a id="scrollTopBtn" href="#">Back to Top</a>                     <!-- '#' means top of the page-->
+
    <!-- end service -->
 
    <!--  footer -->

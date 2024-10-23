@@ -1850,6 +1850,7 @@ ul.sociel_link li a {
 	color: #0a0401 !important;
 	font-size: 20px;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 .read-more:hover {
@@ -2245,7 +2246,7 @@ ul.lik li a:hover {
 .form-control {
 	border: var(--main-color) solid 2px;
 	border-radius: inherit;
-	margin-bottom: 30px;
+	margin-top: 30px;	
 	padding: 13px 20px;
 	font-family: poppins;
 }
@@ -2258,7 +2259,7 @@ ul.lik li a:hover {
 .textarea {
 	font-family: poppins;
 	border: var(--main-color) solid 2px;
-	margin-bottom: 30px;
+	margin-top: 30px;
 	padding: 13px 20px;
 	width: 100%;
 	padding-top: 40px;
@@ -2771,4 +2772,69 @@ a {
 	/* Darker blue on hover */
 	transform: scale(1.05);
 	/* Slight zoom effect */
+}
+
+/*  new changes in about section */
+
+/* for team members */
+.for_box p {
+    display: none;                   /*  hides the paragraph */
+}
+ .for_box p.show {                         /* unhides the paragraph with class show */
+    display: block;
+}
+
+/* for scroll to top  */
+#scrollTopBtn {
+    display: inline-block; /* for small size, */
+    position: fixed; /* for fixed position */
+    bottom: 20px; /* bottom se position*/
+    right: 20px; /* right side se position*/
+    color: rgb(7, 187, 187); /* text ka colour */
+    font-weight: bold; /* text ko bold krne ke lie */
+    padding: 10px 15px; /* for padding */
+    border: 2px solid rgb(7, 187, 187); /* for border  */
+    border-radius: 5px; /* round corners ke lie*/
+    display: none; /* to hide in starting */
+}
+#scrollTopBtn:hover {
+    background-color: rgb(7, 187, 187); /* hover krne pe background colour change krne ke lie */
+    color: white; /* text colour change krne ke lie, on hovering */
+}
+
+
+/* team profiles popup */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1000; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }

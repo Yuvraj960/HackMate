@@ -253,63 +253,7 @@
       </div>
 
    </div>
-   <!-- end service -->
-   <!-- 
-   <div class="Clients_bg_white">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="title">
-                  <h3>What students Say?</h3>
-               </div>
-            </div>
-         </div>
-
-         <div id="client_slider" class="carousel slide banner_Client" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="carousel-caption text-bg">
-                        <div class="img_bg">
-                           <i>
-                              <img src="assets/images/lllll.png" /><span>Jone Due<br><strong
-                                    class="date">12/02/2019</strong></span>
-                           </i>
-                        </div>
-                        <p>
-                           You guys rock! Thank you for making it painless, pleasant and most of all hassle free! I
-                           wish I would have thought of it first. I am really satisfied with my first laptop
-                           service.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <div class="container">
-      <div class="yellow_bg">
-         <div class="row">
-            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-               <div class="yellow-box">
-                  <h3>REQUEST A FREE CALL<i><img src="assets/icon/calll.png" /></i></h3>
-
-                  <p>Get answers and advice from seniors you want it from.</p>
-               </div>
-            </div>
-            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-               <div class="yellow-box">
-                  <a href="#get_call_send">Get Call</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   </div>
-   -->
-
+   
    <br>
 
    <div class="brand_color">
@@ -329,19 +273,23 @@
          <form class="main_form">
             <div class="row">
                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <input class="form-control" placeholder="Your name" type="text" name="Your Name" required>
+                  <input class="form-control" placeholder="Your name" type="text" name="Your Name" id="name" required>
+                  <span class="text-danger" id="nameError"></span>
                </div>
                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <input class="form-control" placeholder="Email" type="text" name="Email" required>
+                  <input class="form-control" placeholder="Email" type="text" name="Email" id="email" required>
+                  <span class="text-danger" id="emailError"></span>
                </div>
                <div class=" col-md-12">
-                  <input class="form-control" placeholder="Phone" type="text" name="Phone" required>
+                  <input class="form-control" placeholder="Phone" type="text" name="Phone" id="phone" required>
+                  <span class="text-danger" id="phoneError"></span>
                </div>
                <div class="col-md-12">
-                  <textarea class="textarea" placeholder="Message" required></textarea>
+                  <textarea class="textarea" placeholder="Message" id="message" required></textarea>
+                  <span class="text-danger" id="messageError"></span>
                </div>
                <div class=" col-md-12">
-                  <button class="send">Send</button>
+                  <button class="send" id="submitBtn">Send</button>
                </div>
             </div>
          </form>
