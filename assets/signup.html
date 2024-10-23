@@ -82,25 +82,35 @@
     </div>
 
     <div class="registration-form">
-        <form>
+        <form id="signup-form" onsubmit="return validate(event)">
             <div class="form-icon">
                 <span><i class="icon icon-user"></i></span>
             </div>
             <div class="form-group">
-                <input type="email" class="form-control item" id="email" placeholder="Email" required>
+                <input type="email" class="form-control item" id="email" placeholder="Email">
+                <span id="email_span" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control item" id="username" placeholder="Username" required>
+                <input type="text" class="form-control item" id="username" placeholder="Username" maxlength="50" >
+                <small id="username_small" style="display: none;">0/50 characters used</small>
+                <span id="username_span" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="password" class="form-control item" id="password" placeholder="Password" required>
+                <input type="password" class="form-control item" id="password" placeholder="Password" >
+                <span id="password_span" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number" maxlength="10"
-                    required>
+                <input type="password" class="form-control item" id="confirm-password" placeholder="Confirm-Password" >
+                <span id="confirm-password_span" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="date" class="form-control item" id="birth-date" placeholder="Birth Date" required>
+                <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number" maxlength="10">
+                     <small id="phone_small" style="display: none;">0/10 characters used</small>
+                     <span id="phone-number_span" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control item" id="birth-date" placeholder="Birth Date">
+                <span id="birth-date_span" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-block create-account">Create Account</button>
