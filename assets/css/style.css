@@ -1850,6 +1850,7 @@ ul.sociel_link li a {
 	color: #0a0401 !important;
 	font-size: 20px;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 .read-more:hover {
@@ -2245,7 +2246,7 @@ ul.lik li a:hover {
 .form-control {
 	border: var(--main-color) solid 2px;
 	border-radius: inherit;
-	margin-bottom: 30px;
+	margin-top: 30px;	
 	padding: 13px 20px;
 	font-family: poppins;
 }
@@ -2258,7 +2259,7 @@ ul.lik li a:hover {
 .textarea {
 	font-family: poppins;
 	border: var(--main-color) solid 2px;
-	margin-bottom: 30px;
+	margin-top: 30px;
 	padding: 13px 20px;
 	width: 100%;
 	padding-top: 40px;
