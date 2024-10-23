@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>HackMate</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+    <style>
+        .error-text {
+            color: red;
+            font-size: 12px;
+        }
+    
+        .success-text {
+            color: green;
+            font-size: 12px;
+        }
+    
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="main-layout">
+    <!-- header -->
+    <header>
+        <div class="header">
+            <div class="head_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="top-box">
+                                <ul class="sociel_link">
+                                    <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo"> <a href="../index.html"><img src="images/logo.png" alt="logo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+                                        <li> <a href="../index.html">Home</a> </li>
+                                        <li> <a href="about.html">About</a> </li>
+                                        <li> <a href="resource.html">Resources</a> </li>
+                                        <li> <a href="event.html"> Events</a> </li>
+                                        <li class="mean-last active"> <a href="signup.html">Signup</a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                        <li><a class="buy" href="login.html">Login</a></li>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- end header -->
+
+    <div class="brand_color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Register</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="registration-form">
+        <form id="registrationForm">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <div class="error-text" id="nameError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email (@gmail.com)" required>
+                <div class="error-text" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="phone" placeholder="Phone Number (10 digits)" required>
+                <div class="error-text" id="phoneError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="branch" placeholder="Branch (alphabets only)" required>
+                <div class="error-text" id="branchError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="number" class="form-control" id="year" placeholder="Year of Study" min="1" max="5" required>
+                <div class="error-text" id="yearError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="university" placeholder="University Name" required>
+                <div class="error-text" id="universityError"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="eventCode" placeholder="Event Code (6 characters)"  required>
+                <div class="error-text" id="eventCodeError"></div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn btn-block create-account">Register</button>
+            </div>
+            <div id="otpSection" class="hidden form group">
+                <input type="text" id="otp" class = "form-control" placeholder="Enter OTP">
+                <button id="otpSubmit" class="btn-block create-account">Submit OTP</button>
+                <p id="otpError" class="error-text"></p>
+            </div>
+        </form>
+        
+
+        <div class="social-media">
+            <h5>Sign up with social media</h5>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook-f" title="Facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram" title="Instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--  footer -->
+    <footr>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <ul class="sociel">
+                            <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h3>contact us</h3>
+                            <span>123 Second Street Fifth Avenue,<br>
+                                Manhattan, New York<br>
+                                +987 654 3210</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h3>ADDITIONAL LINKS</h3>
+                            <ul class="lik">
+                                <li> <a href="#">About us</a></li>
+                                <li> <a href="#">Terms and conditions</a></li>
+                                <li> <a href="#">Privacy policy</a></li>
+                                <li> <a href="#">Events</a></li>
+                                <li> <a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h3>services</h3>
+                            <ul class="lik">
+                                <li> <a href="#">Affordable Resources</a></li>
+                                <li> <a href="#">Blogs</a></li>
+                                <li> <a href="#">24x7 service</a></li>
+                                <li> <a href="#">Free Resources</a></li>
+                                <li> <a href="#">Technical support</a></li>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="contact">
+                            <h3>About HackMate</h3>
+                            <span>interactive platform where students find the events according to their area of
+                                interest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2024 All Right Reserved By <a href="https://github.com/Yuvraj960"> Yuvraj960 </a></p>
+            </div>
+
+        </div>
+    </footr>
+    <!-- end footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+        
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/main/register.js"></script>
+    
+</body>
+
+</html>
