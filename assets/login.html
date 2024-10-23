@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>HackMate</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -18,10 +14,13 @@
         .icon:hover {
             color: white;
         }
+
+        .error {
+            color: red;
+            font-size: 0.875em;
+        }
     </style>
 </head>
-
-<!-- body -->
 
 <body class="main-layout">
     <!-- header -->
@@ -81,7 +80,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>login</h2>
+                        <h2>Login</h2>
                     </div>
                 </div>
             </div>
@@ -94,7 +93,7 @@
                 <div class="col-lg-6">
                     <div class="card1 pb-5">
                         <div class="row px-3 justify-content-center align-items-center mt-4 mb-5">
-                            <img src="images/loginimg.png" class="image">
+                            <img src="images/loginimg.png" class="image" alt="Login Image">
                         </div>
                     </div>
                 </div>
@@ -102,29 +101,36 @@
                     <div class="card2 card border-0 px-4 py-5">
                         <div class="row mb-4 px-3">
                             <h6 class="mb-0 mr-4 mt-2">Sign in with</h6>
-                            <div class="facebook text-center mr-3"><a class="icon" href="https://www.facebook.com/">
+                            <div class="facebook text-center mr-3">
+                                <a class="icon" href="https://www.facebook.com/">
                                     <div class="fa fa-facebook"></div>
-                                </a></div>
-                            <div class="twitter text-center mr-3"><a class="icon" href="https://www.twitter.com/">
+                                </a>
+                            </div>
+                            <div class="twitter text-center mr-3">
+                                <a class="icon" href="https://www.twitter.com/">
                                     <div class="fa fa-twitter"></div>
-                                </a></div>
-                            <div class="linkedin text-center mr-3"><a class="icon" href="https://www.linkedin.com/">
+                                </a>
+                            </div>
+                            <div class="linkedin text-center mr-3">
+                                <a class="icon" href="https://www.linkedin.com/">
                                     <div class="fa fa-linkedin"></div>
-                                </a></div>
+                                </a>
+                            </div>
                         </div>
-                        <form action="./event.html">
+                        <form id="loginForm">
                             <div class="row px-3">
                                 <label class="mb-1">
                                     <h6 class="mb-0 text-sm">Email Address</h6>
                                 </label>
-                                <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address"
-                                    required>
+                                <input class="mb-4" type="text" id="email" placeholder="Enter a valid email address" required>
+                                <small id="emailError" class="error"></small>
                             </div>
                             <div class="row px-3">
                                 <label class="mb-1">
                                     <h6 class="mb-0 text-sm">Password</h6>
                                 </label>
-                                <input type="password" name="password" placeholder="Enter password" required>
+                                <input type="password" id="password" placeholder="Enter password" required>
+                                <small id="passwordError" class="error"></small>
                             </div>
                             <div class="row px-3 mb-4">
                                 <div class="custom-control custom-checkbox custom-control-inline">
@@ -137,8 +143,7 @@
                                 <button type="submit" class="btn btn-blue text-center">Login</button>
                             </div>
                             <div class="row mb-4 px-3">
-                                <small class="font-weight-bold">Don't have an account? <a href="signup.html"
-                                        class="text-danger">Register</a></small>
+                                <small class="font-weight-bold">Don't have an account? <a href="signup.html" class="text-danger">Register</a></small>
                             </div>
                         </form>
                     </div>
@@ -147,78 +152,13 @@
         </div>
     </div>
 
-    <!--  footer -->
-    <footr>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3">
-                        <ul class="sociel">
-                            <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>contact us</h3>
-                            <span>123 Second Street Fifth Avenue,<br>
-                                Manhattan, New York<br>
-                                +987 654 3210</span>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>ADDITIONAL LINKS</h3>
-                            <ul class="lik">
-                                <li> <a href="#">About us</a></li>
-                                <li> <a href="#">Terms and conditions</a></li>
-                                <li> <a href="#">Privacy policy</a></li>
-                                <li> <a href="#">Events</a></li>
-                                <li> <a href="#">Contact us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>services</h3>
-                            <ul class="lik">
-                                <li> <a href="#">Affordable Resources</a></li>
-                                <li> <a href="#">Blogs</a></li>
-                                <li> <a href="#">24x7 service</a></li>
-                                <li> <a href="#">Free Resources</a></li>
-                                <li> <a href="#">Technical support</a></li>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="contact">
-                            <h3>About HackMate</h3>
-                            <span>interactive platform where students find the events according to their area of
-                                interest</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright 2024 All Right Reserved By <a href="https://github.com/Yuvraj960"> Yuvraj960 </a></p>
-            </div>
-
-        </div>
-    </footr>
-    <!-- end footer -->
-
-    <script src="js/main/login.js"></script>
-
-    <!-- Javascript files-->
+    <footer></footer>
+<script src="js/main/login.js"> </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
     <script src="js/custom.js"></script>
+   
 </body>
 
 </html>

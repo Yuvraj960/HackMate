@@ -1,0 +1,126 @@
+{
+    "products": [
+        {
+            "imgSrc": "./images/gssoc.png",
+            "heading": "(GSSoc)",
+            "href": "https://summerofcode.withgoogle.com/",
+            "description": "Google Summer of Code is a global program that offers stipends to university students for working on open source projects."
+        },
+        {
+            "imgSrc": "./images/acktoberfest2.jpeg",
+            "heading": "Hacktoberfest",
+            "href": "https://hacktoberfest.com/",
+            "description": "A month-long celebration of open source software, encouraging contributions and rewarding participants."
+        },
+        {
+            "imgSrc": "./images/git.png",
+            "heading": "LC Bypass",
+            "href": "https://github.com/31b4/Leetcode-Premium-Bypass",
+            "description": "A tool to bypass the LeetCode premium content restrictions."
+        },
+        {
+            "imgSrc": "./images/ollama.jpeg",
+            "heading": "Ollama",
+            "href": "https://ollama.com/",
+            "description": "An AI-powered platform for building and deploying machine learning models easily."
+        },
+        {
+            "imgSrc": "./images/claude.png",
+            "heading": "Claude Ai",
+            "href": "https://claude.ai/",
+            "description": "An advanced AI chatbot designed to assist with a wide range of queries and tasks."
+        },
+        {
+            "imgSrc": "./images/dev2.png",
+            "heading": "Dev Post",
+            "href": "https://devpost.com/hackathons",
+            "description": "A platform for developers to showcase their projects and find hackathons to participate in."
+        },
+        {
+            "imgSrc": "./images/perplexity.jpeg",
+            "heading": "Perplexity Ai",
+            "href": "https://www.perplexity.ai/",
+            "description": "An AI tool that provides information and answers to user queries through conversational interfaces."
+        },
+        {
+            "imgSrc": "./images/git.png",
+            "heading": "Coderjojo",
+            "href": "https://github.com/coderjojo/creative-profile-readme",
+            "description": "A GitHub repository aimed at creating a stunning README for your profile using templates."
+        },
+        {
+            "imgSrc": "./images/hackerearth.png",
+            "heading": "HackerEarth",
+            "href": "https://www.hackerearth.com/",
+            "description": "A platform for coding competitions, hiring challenges, and learning programming skills."
+        },
+        {
+            "imgSrc": "./images/MLH2.png",
+            "heading": "MLH",
+            "href": "https://mlh.io/",
+            "description": "Major League Hacking supports hackathons and helps students learn coding through real-world challenges."
+        },
+        {
+            "imgSrc": "./images/odin.png",
+            "heading": "Odin Project",
+            "href": "https://www.theodinproject.com/",
+            "description": "A free open-source coding curriculum to learn web development and programming."
+        },
+        {
+            "imgSrc": "./images/FREECODECAMP.jpeg",
+            "heading": "FreeCodeCamp",
+            "href": "https://www.freecodecamp.org/",
+            "description": "An interactive learning web platform that offers free coding classes and certifications."
+        },
+        {
+            "imgSrc": "./images/arcade.jpeg",
+            "heading": "Google Arcade Program",
+            "href": "https://cloud.google.com/blog/topics/training-certifications/the-arcade-with-google-cloud-game-helps-boost-cloud-skills",
+            "description": "A fun initiative by Google Cloud that gamifies cloud learning and skills development."
+        },
+        {
+            "imgSrc": "./images/swoc.png",
+            "heading": "Social Winter Of Code(SWOC)",
+            "href": "https://www.socialwinterofcode.com/",
+            "description": "A program promoting open-source contributions during the winter season."
+        },
+        {
+            "imgSrc": "./images/twitter.jpeg",
+            "heading": "X creator",
+            "href": "https://x.com/Prathkum?t=XOGJp6TeV14OwkJfr0C-ZA&s=08",
+            "description": "Explore creative projects and ideas shared by the community on X."
+        },
+  
+        {
+            "imgSrc": "./images/unstop.jpeg",
+            "heading": "Unstop",
+            "href": "https://unstop.com/",
+            "description": "A platform for students to discover opportunities, competitions, and challenges to enhance their skills."
+        },
+        
+        {
+            "imgSrc": "./images/notion.jpeg",
+            "heading": "Notion",
+            "href": "https://www.notion.so/",
+            "description": "An all-in-one workspace for note-taking, project management, and collaboration."
+        },
+        {
+            "imgSrc": "./images/codeforces.jpeg",
+            "heading": "Code Forces",
+            "href": "https://codeforces.com/",
+            "description": "A competitive programming platform where users can participate in contests and improve their coding skills."
+        },
+        {
+            "imgSrc": "./images/canva.jpeg",
+            "heading": "Canva",
+            "href": "https://www.canva.com/",
+            "description": "A graphic design tool that allows users to create stunning visuals easily."
+        },
+        {
+            "imgSrc": "./images/student2.jpeg",
+            "heading": "Student Developer Pack",
+            "href": "https://education.github.com/pack",
+            "description": "A collection of free tools and resources for students to help them learn and build projects."
+        }
+    ]
+  }
